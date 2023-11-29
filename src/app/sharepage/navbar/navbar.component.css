@@ -1,0 +1,61 @@
+/* Navigation Bar Styles */
+.navbar {
+    background: linear-gradient(to right, #3498db, #1abc9c); /* Gradient background */
+  }
+  
+  .navbar-brand {
+    font-size: 30px; /* Font size */
+    font-weight: bold; /* Font weight */
+    color: #ecf0f1; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Add transition effects */
+  }
+  
+  .navbar-brand:hover {
+    color: #f39c12; /* Change text color on hover */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Increase text shadow on hover */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ecf0f1; /* Toggler icon color */
+  }
+  
+  /* Navigation Links Styles */
+  .nav-link {
+    color: #ecf0f1 !important; /* Navigation link text color */
+    margin-right: 15px;
+    font-size: 16px; /* Adjust the font size */
+    transition: color 0.3s ease; /* Add a transition effect */
+  }
+  
+  .nav-link:hover {
+    color: #f39c12 !important; /* Change link color on hover */
+  }
+  
+  /* Highlight Active Link Styles */
+  .active-link {
+    color: #f39c12 !important; /* Active link text color */
+  }
+  
+  /* Search Form Styles */
+  .form-control {
+    margin-right: 10px;
+    color: #2c3e50; /* Input text color */
+  }
+  
+  /* Search Button Styles */
+  .btn-outline-success {
+    color: #2c3e50; /* Search button text color */
+    border-color: #2c3e50; /* Search button border color */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add a transition effect */
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #ecf0f1; /* Change button background color on hover */
+    color: #2c3e50; /* Change text color on hover */
+  }
+  
+
+  
+  
+  

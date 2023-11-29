@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@fortawesome/fontawesome-free/css/all.css';
+*{
+
+    padding: 0;
+    margin: 0;
+
+}
+:root
+{
+    --primary-color: green;
+    --secondary-color: black;
+}
+body
+{   
+    height: 100vh;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
