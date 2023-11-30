@@ -2,6 +2,7 @@
 {
     background-image: url('../../../assets/img/pexels-pixabay-280232.jpg');
     height: 600px;
+    
     background-position: center top;
     background-size: cover;
 }
@@ -33,6 +34,70 @@
     color: #fff;
 }
 
+
+/* Add these styles to your existing CSS file or create a new one */
+/* Add these styles to your existing CSS file or create a new one */
+#carouselExampleIndicators {
+  margin-top: 30px;
+}
+
+.carousel-inner {
+  border-radius: 10px;
+  
+  }
+  .carousel-item {     transition: -webkit-transform 0.1s ease;     
+    transition: transform 0.1s ease;     
+    transition: transform 0.1s ease,
+    -webkit-transform 0.1s ease;     
+    -webkit-backface-visibility: visible;             
+    backface-visibility: visible; }
+
+.carousel-item img {
+  width: 1000px;
+  height: 500px;
+  border-radius: 10px;
+
+
+}
+
+.carousel-indicators {
+  bottom: 10px;
+}
+
+.carousel-indicators button {
+  background-color: #3498db;
+  border: none;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: #1abc9c;
+}
+
+/* .carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+} 
+
+ .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #3498db;
+  border-radius: 50%;
+}
+
+.carousel-control-prev-icon:after,
+.carousel-control-next-icon:after {
+  color: #fff;
+  font-size: 25px;
+} */
+
+
+
+
+
 /* .stepBox 
 {
     background-color: #000;
@@ -62,7 +127,7 @@
 /* Step Box Styles */
 .stepBox {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     border: 2px solid #3498db; /* Border color */
     border-radius: 10px; /* Border radius for rounded corners */
     background-color: #fff; /* Background color */
