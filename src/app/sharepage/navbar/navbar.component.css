@@ -1,14 +1,20 @@
 /* Navigation Bar Styles */
 .navbar {
     background: linear-gradient(to right, #3498db, #1abc9c); /* Gradient background */
-  }
+    position:static;
+    height: 100px; /* Adjust the height as needed */
+    
+    
+    
+}
   
   .navbar-brand {
-    font-size: 30px; /* Font size */
+    font-size: 36px; /* Font size */
     font-weight: bold; /* Font weight */
     color: #ecf0f1; /* Text color */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
     transition: color 0.3s ease, text-shadow 0.3s ease; /* Add transition effects */
+    
   }
   
   .navbar-brand:hover {
@@ -24,7 +30,7 @@
   .nav-link {
     color: #ecf0f1 !important; /* Navigation link text color */
     margin-right: 15px;
-    font-size: 16px; /* Adjust the font size */
+    font-size: 20px; /* Adjust the font size */
     transition: color 0.3s ease; /* Add a transition effect */
   }
   
